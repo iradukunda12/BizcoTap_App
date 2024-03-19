@@ -1,0 +1,31 @@
+import 'package:bizcotap/utils/app_exports.dart';
+import 'package:bizcotap/widgets/camera/camera_screen.dart';
+
+Map<String, WidgetBuilder> appRoutes = {
+  '/onboarding': (context) => const OnboardingScreen(),
+  '/navigation': (context) => const NavigationScreen(),
+  '/login': (context) => const LoginScreen(),
+  '/analytics': (context) => const AnalyticsScreen(),
+  '/export-contacts': (context) => const ExportContactsScreen(),
+  '/share': (context) => const ShareScreen(),
+  '/email-signature': (context) => const EmailSignatureScreen(),
+  '/preview': (context) => const PreviewScreen(),
+  '/exchanged-contacts': (context) => const ExchangedContactsScreen(),
+  '/edit-header': (context) => const EditHeaderScreen(),
+  '/add-contact': (context) => const AddContactScreen(),
+  '/edit-profile': (context) => const EditProfileScreen(),
+  '/security': (context) => const SecurityScreen(),
+  '/notification-settings': (context) => const NotificationSettingsScreen(),
+  '/my-subscriptions': (context) => const MySubscriptionsScreen(),
+  '/help-and-support': (context) => const HelpAndSupportScreen(),
+  '/terms-and-policies': (context) => const TermsAndPoliciesScreen(),
+  '/report-a-problem': (context) => const ReportProblemScreen(),
+  '/create-pin': (context) => const CreatePIN(),
+  '/connect-with-qr-code': (context) => const ConnectWithQrCodeScreen(),
+  '/connect-with-new-iphones': (context) => const ConnectWithNewIphonesScreen(),
+  '/connect-with-old-iphones': (context) => const ConnectWithOldIphonesScreen(),
+  '/connect-with-androids': (context) => const ConnectWithAndroidsScreen(),
+  '/payment': (context) => const PaymentScreen(),
+  '/invoice': (context) => const InvoiceScreen(),
+  '/forgot-password': (context) => const ForgotPasswordScreen(),
+};
